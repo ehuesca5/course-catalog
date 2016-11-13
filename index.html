@@ -36,8 +36,8 @@
 						<a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
 					</li> 
 					<li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
-					<li class="filter" data-filter=".req"><a href="#0" data-type="req">Required</a></li>
-					<li class="filter" data-filter=".elect"><a href="#0" data-type="elect">Electives</a></li>
+					<li class="filter" data-filter=".req"><a href="#0" data-type="req">Pre-requisites Required</a></li>
+					<li class="filter" data-filter=".pre"><a href="#0" data-type="elect">Pre-requisite Classes</a></li>
 					
 					<!-- Grid/List Views -->
 					<li>---</li>
@@ -51,35 +51,85 @@
 
 		<section class="cd-gallery">
 			<ul>
-				<li class="mix req prereq">
+				<li class="mix pre preq abc 100 5">
 					<h1>DESN 100</h1>
 					<h3>Drawing for Communications</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>This course covers hand-drawing as a design skill. Emphasis is on
+                        sketching, design drawing, design process and composition studies
+                         for visual presentation and design solutions. Students gain drawing
+                        skills such as basics of drawing techniques, basic shapes, light, texture,
+                        pattern, gesture and perspective drawing to communicate and present
+                        their ideas visually. Students learn and develop critical thinking and
+                        creative problem solving skills using the drawing process.</p>
 				</li>
-				<li class="mix elect abc">
-					<h1>DESN 480</h1>
-					<h3>Photography</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<li class="mix pre preq 200 4">
+					<h1>DESN 216</h1>
+					<h3>Digital Foundations</h3>
+					<p>Introduction to media design and digital culture using computer software
+                        for the creation and manipulation of images and text, file management,
+                        and preparation for print, web or multimedia uses.
+                    </p>
 				</li>
-				<li class="mix 100 abc">
-					<h1>DESN 480</h1>
-					<h3>Photography</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<li class="mix pre preq abc 200 4">
+					<h1>DESN 243</h1>
+					<h3>Typography</h3>
+					<p> DESN 100 and DESN 216.
+                        An introductory-level course concentrating on the fundamentals
+                        of typography with emphasis on letterforms, typographic syntax,
+                        type specification, type as image and the use of type in a variety of
+                        communicative purposes.</p>
+				</li>
+				<li class="mix pre preq req abc 200 5">
+					<h1>DESN 263</h1>
+					<h3>Visual Communication Design</h3>
+					<p>Notes: In order to receive the Visual Communication Design degree,
+                        students must earn ≥3.0 grade in this class, in addition to the department
+                        requirement ≥2.5 GPA in all DESN coursework.
+                        PRE-QUISITES DESN 100 and DESN 216.
+                        This course provides an introduction to Visual Communication Design
+                        including the theories, principles and practices of visual communication,
+                        concept development, design process and design technology.
+                        </p>
+				</li>
+				<li class="mix abc 200 4">
+					<h1>DESN 259</h1>
+					<h3>History of Design</h3>
+					<p>This course considers the development of design in the broad sense of
+                        the term. Beginning with the Industrial Revolution and continuing forward
+                        to the present day, this course explores the components of design that
+                        have influenced the direction of design thinking</p>
+				</li>
+				<li class="mix 100 abc 300 4">
+					<h1>DESN 368</h1>
+					<h3>Web Design</h3>
+					<p>This course covers professional web design addressing modern
+                        technologies, processes and techniques. Students work with current
+                        web technologies, while preparing for future web enabled devices, or the
+                        progressive enhancement approach. Technologies will include HTML(5)
+                        and CSS(2/3).
+                        </p>
+				</li>
+				<li class="mix req abc 300 4">
+					<h1>DESN 375</h1>
+					<h3>Digital Video</h3>
+					<p>Pre-requisites: DESN 216.
+                        This course offers an introduction to digital video techniques. Students
+                        will be introduced to production, editing, theory and practical application
+                        for the creation of effective visual communication solutions. Emphasis
+                        will be on the creative application of concept and design for the moving
+                        image and understanding how to integrate textual, graphical and audio
+                        elements for the successful communication of messages created for CD,
+                        DVD and the Web</p>
+				</li>
+				<li class="mix req abc 4">
+					<h1>DESN 366</h1>
+					<h3>Production Design</h3>
+					<p>Pre-requisites: DESN 263.
+                        This course provides students with theory, knowledge and skill of
+                        production design for both print and web application. Students gain
+                        conceptual understanding and practical skill in areas including color
+                        management, print production and web graphics such as banners and
+                        videos.</p>
 				</li>
 
 		
@@ -109,21 +159,23 @@
 					<ul class="cd-filter-content cd-filters list">
 						<li>
 							<input class="filter" 
-                        data-filter=".prereq" 
-                        type="checkbox"
-                         id="checkbox1">
-                         
-			    			<label class="checkbox-label" for="checkbox1">Prerequisite</label>
+                        data-filter=".preq" 
+                        type="checkbox" id="checkbox1">
+                            <label class="checkbox-label" for="checkbox1">Pre-Requisite</label>
 						</li>
-
+						
 						<li>
-							<input class="filter" data-filter="mix100" type="checkbox" id="checkbox2">
+							<input class="filter" data-filter=".100" type="checkbox" id="checkbox2">
 							<label class="checkbox-label" for="checkbox2">level 100</label>
 						</li>
 
 						<li>
-							<input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
-							<label class="checkbox-label" for="checkbox3">Option 3</label>
+							<input class="filter" data-filter=".200" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">level 200</label>
+						</li>
+						<li>
+							<input class="filter" data-filter=".300" type="checkbox" id="checkbox2">
+							<label class="checkbox-label" for="checkbox2">level 300</label>
 						</li>
 					</ul> <!-- cd-filter-content -->
 				</div> <!-- cd-filter-block -->
@@ -134,11 +186,11 @@
 					<div class="cd-filter-content">
 						<div class="cd-select cd-filters">
 							<select class="filter" name="selectThis" id="selectThis">
-								<option value="">Choose an option</option>
-								<option value=".abc">abc</option>
-								<option value=".option2">Option 2</option>
-								<option value=".option3">Option 3</option>
-								<option value=".option4">Option 4</option>
+								<option value=".4">Choose an option</option>
+								<option value=".abc">4 Credit Classes</option>
+								<option value=".5">5 Credit Classes</option>
+								
+								
 							</select>
 						</div> <!-- cd-select -->
 					</div> <!-- cd-filter-content -->

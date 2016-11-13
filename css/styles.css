@@ -1,14 +1,26 @@
 /*Typography*/
 body{
     font-family: 'Roboto', sans-serif;
-    background: #6d6e71;
-    
+    background: #6d6e71;  
+}
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
     
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10em;
 }
 
 /* YOUR STYLES */
 .cd-header {
+    
     background: #a10022;
     
 }
@@ -19,8 +31,8 @@ body{
 
 /* grid view*/
 .grid li.mix {
-    padding: 100px;
-    margin: auto;
+    padding: 20px;
+    
   
 }
 /*list view*/
