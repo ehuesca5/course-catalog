@@ -6,16 +6,17 @@ body{
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #6d6e71;
 }
 p{
     letter-spacing: .5px;
-    line-height: 25px;
+    line-height: 20px;
+    font-size: .8em;
 }
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.25em;
+    font-size: 1.em;
     color:  #a10022;
     
 }
@@ -26,11 +27,14 @@ header{
 
 /* YOUR STYLES */
 li {
-    padding: 10px;
+    padding: 5px;
+    
 }
+
 .cd-header {
     
     background: #a10022;
+    height: 120px;
     
 }
 /* content containers*/
@@ -40,7 +44,7 @@ li {
 
 /* grid view*/
 .grid li.mix {
-    padding: 20px;
+    padding: 5px;
     
   
 }
