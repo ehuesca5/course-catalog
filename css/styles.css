@@ -7,10 +7,16 @@ body{
 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
+    color: #6d6e71;
+}
+p{
+    letter-spacing: .5px;
+    line-height: 25px;
 }
 h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.25em;
+    color:  #a10022;
     
 }
 header{
@@ -19,6 +25,9 @@ header{
 }
 
 /* YOUR STYLES */
+li {
+    padding: 10px;
+}
 .cd-header {
     
     background: #a10022;
@@ -35,9 +44,13 @@ header{
     
   
 }
+/*list click expand*/
+
 /*list view*/
 .list li.mix {
+   
    width: 100%;
+    
 }
 .list li.mix p {
     display: none;
